@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables (contains secrets - NEVER commit)
+.env
+.env.*
+!.env.example
+
+# Video files (test data - do not commit)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# uv lock (optional - remove this line if you want reproducible builds)
+uv.lock
