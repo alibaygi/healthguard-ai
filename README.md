@@ -53,8 +53,6 @@ ComplianceQAPipeline/
 │       │   └── workflow.py          # Graph compilation
 │       └── services/
 │           └── video_indexer.py     # Azure Video Indexer + yt-dlp
-├── azure_functions/
-│   └── function_app.py             # Azure Functions trigger
 └── azure_services_tutorial.ipynb   # Interactive tutorial notebook
 ```
 
