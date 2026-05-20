@@ -26,6 +26,18 @@ wheels/
 
 # Jupyter
 .ipynb_checkpoints/
+azure_services_tutorial.ipynb
 
 # uv lock (optional - remove this line if you want reproducible builds)
 uv.lock
+
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/*.tfvars
+terraform/crash.log
+terraform/override.tf
+terraform/override.tf.json
+# Note: terraform/.terraform.lock.hcl is intentionally NOT ignored
+# (it should be committed for reproducible provider installs)

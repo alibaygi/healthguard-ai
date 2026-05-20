@@ -1,0 +1,22 @@
+# ── Required ──────────────────────────────────────────────────────────────────
+# Run `az account show --query id -o tsv` to find your subscription ID.
+subscription_id = "00000000-0000-0000-0000-000000000000"
+
+# ── Optional — uncomment and change to override defaults ──────────────────────
+# prefix   = "healthguard"   # Prefix for all resource names (max 12 chars)
+# location = "eastus"        # Azure region — must support GPT-4o
+#                            # Options: eastus | swedencentral | westus | northcentralus
+
+# ── Model deployment capacity (1 unit = 1,000 tokens-per-minute) ──────────────
+# openai_gpt4o_capacity     = 10   # Increase for higher throughput
+# openai_embedding_capacity = 5
+
+# ── Azure AI Search tier ──────────────────────────────────────────────────────
+# search_sku = "standard"    # "basic" does NOT support vector search
+
+# ── Resource tags ─────────────────────────────────────────────────────────────
+# tags = {
+#   project     = "healthguard-ai"
+#   environment = "dev"
+#   managed_by  = "terraform"
+# }
